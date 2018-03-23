@@ -215,7 +215,7 @@ export default class GridPaging extends React.Component {
               className="page-link previous-page"
               title="Previous page"
               onClick={this.handleClickPage.bind(this, pagination.currentPage() - 1)}
-			  > &lt; </a>
+			  > Previous </a>
           </li>
           {this.renderFirstPage()}
           {this.renderPreviousPages()}
@@ -228,7 +228,7 @@ export default class GridPaging extends React.Component {
               className="page-link next-page"
               title="Next page"
               onClick={this.handleClickPage.bind(this, pagination.currentPage() + 1)}
-			  > &gt; </a>
+			  > Next </a>
           </li>
         </ul>
       </div>
